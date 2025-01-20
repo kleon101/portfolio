@@ -13,4 +13,6 @@ AI & Data Consulting Vacationer @ EY
 
 ### Project Experience
 WinDash - Innovative Household Energy Monitoring
-- 
+- Worked in a team of 6, where I was mainly involved in the machine learning and data analysis tasks.
+- Used LSTM ML model to be able to predict the user's daily or weekly energy usage. This was then converted to estimate the user's energy bill.
+- React Native and Node.JS used for the mobile application and the MERN stack for the backend for the application.
