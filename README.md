@@ -1,17 +1,17 @@
 # Final Year Computer Science Student majoring in Data Science at UQ
 
 ### Education
-Bachelor of Computer Science - Data Science, July 2022 - June 2025
+Bachelor of Computer Science - Data Science | The University of Queensland July 2022 - June 2025
 
 ### Work Experience
-AI & Data Consulting Vacationer @ EY
+**AI & Data Consulting Vacationer @ EY (_Nov 2024 - Dec 2024_)**
 - Built a Retrieval-Augmented Generation (RAG) pipeline model utilising Microsoft Azure Services.
 - Pipeline was able to ingest documents into Azure Blob Storage, then Azure Document Intelligence was used to extract contents from the complex layouts in the documents held in Azure Blob Storage container. Langchain was used to chunk the contents and keep reference to the metadata such as Document name and page number where this chunk content came from. Azure AI search was used to store the chunks and conduct similatiry search. The similarity search was a hybrid between vector search and semantic search which allows for vector similarity and the model being able to understand the semantic meaning of the user's query. 
 - Based on the user's query, the most relevant chunks were sent to OpenAI LLM to be able to use the relevant chunks and the prompt we provide to generate a coherent natural response. 
 - Presented our POC solution to a wide range of audience members which included technical and non-technical people.
 
   
-Customer Service Specialist @ ProbeCX
+**Customer Service Specialist @ ProbeCX (_Aug 2022 - Present_)**
 - Delivering exceptional customer service to customers of the Australian Tax Office using effective communication over the phone.
 - Consistently analyzing and evaluating Key Performance Indicators (KPIs) to improve performance.
 - Proficiently utilizing a range of systems to assist clients in fulfilling their requests.
