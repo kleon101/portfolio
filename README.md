@@ -1,12 +1,14 @@
 # Final Year Computer Science Student majoring in Data Science at UQ
 
 ### Education
-Bachelor of Computer Science - Data Science, 2022-2025
+Bachelor of Computer Science - Data Science, July 2022 - June 2025
 
 ### Work Experience
 AI & Data Consulting Vacationer @ EY
-- Built a Retrieval-Augmented Generation (RAG) pipeline model utilising Microsoft Azure Services such as Blob Storage, AI search, Document Intelligence as well as OpenAI large-language models to be able to make the process of content search in previous RFT/RTQ easier.
-- Presented our solution to a wide range of audience members which included technical and non-technical people.
+- Built a Retrieval-Augmented Generation (RAG) pipeline model utilising Microsoft Azure Services.
+- Pipeline was able to ingest documents into Azure Blob Storage, then Azure Document Intelligence was used to extract contents from the complex layouts in the documents held in Azure Blob Storage container. Langchain was used to chunk the contents and keep reference to the metadata such as Document name and page number where this chunk content came from. Azure AI search was used to store the chunks and conduct similatiry search. The similarity search was a hybrid between vector search and semantic search which allows for vector similarity and the model being able to understand the semantic meaning of the user's query. 
+- Based on the user's query, the most relevant chunks were sent to OpenAI LLM to be able to use the relevant chunks and the prompt we provide to generate a coherent natural response. 
+- Presented our POC solution to a wide range of audience members which included technical and non-technical people.
 
   
 Customer Service Specialist @ ProbeCX
@@ -19,7 +21,7 @@ Customer Service Specialist @ ProbeCX
 WinDash - Innovative Household Energy Monitoring
 - Worked in a team of 6, where I was mainly involved in the machine learning and data analysis tasks.
 - Used LSTM ML model to be able to predict the user's daily or weekly energy usage. This was then converted to estimate the user's energy bill.
-- React Native and Node.JS used for the mobile application and the MERN stack for the backend for the application.
+-  MERN stack used for the mobile application where React Native and Node.JS used for front-end and MongoDB for the backend for the application.
 
 Forecasting bicycle usage on Bicentennial Bikeway in Milton
 - Creating predictions of future bicycle usage using Pandas, NumPy libraries.
@@ -31,9 +33,11 @@ NFL Fantasy Helper - Cloud Computing Project
 - Utilised Apache Spark framework and Hadoop Distributed File System on a virtual machine on GCP to perform analysis of NFL dataset.
 - Created 4 queries using SparkSQL with visualisations to assist NFL fantasy players with data driven insights.
 
-### Certificates
-- Microsoft Azure AI Fundamentals
-- Databricks Fundamentals & Lakehouse Badges
-- Microsoft Azure Data Fundamentals 
-- Meta Data Analyst Professional 
-- IBM Machine Learning 
+Fruit Fly Classification - Machine Learning Project
+
+
+Natural Language Processing Project
+
+Pink Panther Photography Website
+
+Crossword Game
